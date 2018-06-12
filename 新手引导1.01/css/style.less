@@ -1,0 +1,98 @@
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body,html{
+    height: 100%;
+}
+#noviceGuide{
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+#noviceGuide .step_item{
+    width: auto;
+    height: 18px;
+    padding: 8px;
+    color: #fff;
+    line-height: 18px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    display: block;
+    margin-top: -8px;
+    text-align: center;
+}
+#noviceGuide .isStep{
+    background-color: #2d8cf0;
+}
+#noviceGuide .isNotStep{
+    background-color: none;
+    color: #fff;
+}
+#noviceGuide .is-step-arrow{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    left: -5px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #2d8cf0;
+    bottom: 12px;
+}
+#noviceGuide .layui-timeline-title{
+    top: -8px;
+}
+#noviceGuide .step_item:hover{
+    background-color: #2d8cf0;
+    color: #fff;
+}
+#noviceGuide .step_item:hover span{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    left: -5px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #2d8cf0;
+    bottom: 12px;
+}
+#prevStepDt1,#prevStepDt,#nextStepDt{
+    display: none;
+}
+#imgBoxMain .imgBox{
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+/*#imgBoxMain .imgBox */
+#rightBox{
+    position: fixed;
+    top:100px;
+    right:50px;
+    width: 160px;
+    z-index: 2;
+}
+#imgBoxMain{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(94, 95, 97);
+}
+.btnClass{
+    position: fixed;
+    right: 20px;
+    top: 100px;
+}
